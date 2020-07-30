@@ -24,3 +24,7 @@ and replace uvicorn.run(.....) by
 ```
 uvicorn.run(app=app, host='0.0.0.0', port=Port, log_level="info")
 ```
+Edit : After upgrading uvicorn version, the app crashed with the following error - 
+[Publish to Heroku is broken: "WARNING: You must pass the application as an import string to enable 'reload' or 'workers"](https://github.com/simonw/datasette/issues/633)
+
+Solution is changing WEB_CONCURRENCY = 1 in app's setting on Heroku dashboard.
