@@ -8,7 +8,7 @@ You can check the notebook [here.](https://gist.github.com/sachinchaturvedi93/33
 
 ## Notes
 
-1. This is taken from started code for deploying [fast.ai](https://www.fast.ai) models on [Render](https://github.com/render-examples/fastai-v3).
+1. The starter codes is taken from the starter code for deploying [fast.ai](https://www.fast.ai) models on [Render](https://github.com/render-examples/fastai-v3).
 
 2. We need to add a Procfile to the repository and put `web: python app/server.py serve` in it.
 
